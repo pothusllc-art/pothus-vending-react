@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import Services from './components/Services.jsx'
+import Value from './components/Value.jsx'
 import Machines from './components/Machines.jsx'
 import Brands from './components/Brands.jsx'
 import Coffee from './components/Coffee.jsx'
@@ -30,6 +31,7 @@ export default function App(){
       <main id="main" className="container">
         <Hero />
         <Services />
+        <Value />
         <Machines />
         <Brands />
         <Coffee />
@@ -40,4 +42,3 @@ export default function App(){
     </>
   )
 }
-
